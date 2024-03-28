@@ -44,7 +44,7 @@ function App() {
       <div className=''>
         <Navbar />
       </div>
-      <div className='container'>
+      <div className='container -mt-36'>
         <Intro />
         <Touch isMobile={isMobile} />
         <Battery isMobile={isMobile} />
