@@ -31,10 +31,10 @@ export default function Design({ isMobile }) {
   }, [isMobile]);
 
   return (
-    <div className='flex flex-col justify-end items-center md:items-end w-screen h-screen p-12' id='section-4'>
+    <div className='flex flex-col justify-end items-center md:items-end w-screen h-screen p-12 -mt-14 md:mt-0' id='section-4'>
       <div className=''>
-        <Heading content={"Silhouette design"} style={"font-sansation text-color-green-dark text-2xl md:text-3xl lg:text-5xl"} scrolled={true} section={"section-4"} isMobile={isMobile} />
-        <p className=' text-color-green-dark text-sm md:text-2xl lg:text-4xl font-extralight' ref={subHeader} id='subText-4'>
+        <Heading content={"Silhouette design"} style={"font-sansation text-[#282828] text-2xl md:text-3xl lg:text-5xl"} scrolled={true} section={"section-4"} isMobile={isMobile} />
+        <p className=' text-[#444444] text-sm md:text-2xl lg:text-4xl font-extralight' ref={subHeader} id='subText-4'>
           The shape and contours of the camera body,<br />
           including any ergonomic grips or curves<br />
           designed for comfortable handling.

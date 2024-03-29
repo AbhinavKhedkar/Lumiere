@@ -1,6 +1,5 @@
 import React from 'react'
 import lens from "../assets/images/lens.png"
-import Background from './Background'
 import '../styles/style.css';
 
 export default function Base() {

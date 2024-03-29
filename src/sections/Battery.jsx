@@ -32,9 +32,9 @@ export default function Battery({isMobile}) {
   }, [isMobile]);
 
   return (
-    <div className='flex flex-col justify-end items-center md:items-start w-screen h-screen p-12' id='section-3'>
-      <Heading content={"Sustained battery life"} style={"font-sansation text-color-green-dark text-2xl md:text-3xl lg:text-5xl"} scrolled={true} section={"section-3"}/>
-      <p className='text-color-green-dark text-sm md:text-2xl lg:text-4xl font-extralight' ref={subHeader} id='subText-3'>
+    <div className='flex flex-col justify-end items-center md:items-start w-screen h-screen p-12 -mt-14 md:mt-0' id='section-3'>
+      <Heading content={"Sustained battery life"} style={"font-sansation text-[#282828] text-2xl md:text-3xl lg:text-5xl"} scrolled={true} section={"section-3"}/>
+      <p className='text-[#444444] text-sm md:text-2xl lg:text-4xl font-extralight' ref={subHeader} id='subText-3'>
         Enjoy extended shooting sessions without<br />
         interruption, thanks to long-lasting battery life,<br />
         ensuring you never miss a moment of action
