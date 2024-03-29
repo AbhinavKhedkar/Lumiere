@@ -3,7 +3,7 @@ import LinkedIn from '../assets/images/LinkedIn.png';
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col p-12 md:p-16 bg-[#FDFDFD] relative">
+    <footer className="flex flex-col p-12 md:p-16 mt-20">
       <div className="flex flex-col md:flex-row">
         <div className="flex flex-col mb-8">
           <div className="flex flex-wrap mb-16 border-b-4 border-solid border-[#6AAF6F]">

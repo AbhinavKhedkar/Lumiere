@@ -1,10 +1,15 @@
 import React from 'react'
 import lens from "../assets/images/lens.png"
+import Background from './Background'
+import '../styles/style.css';
 
 export default function Base() {
     return (
-        <div className='h-screen w-screen' id='section-5'>
-            <div className="absolute flex justify-center items-center w-full h-full bg-[#FDFDFD] text-color-black font-sansation text-7xl md:text-[300px]">
+        <div className='relative h-screen w-screen' id='section-5'>
+            <div className="absolute inset-0 overflow-hidden">
+                    <div className="jumbo absolute -inset-[10px] opacity-50"></div>
+                </div>
+            <div className="relative flex justify-center items-center w-full h-full text-color-black font-sansation text-7xl md:text-[300px]">
                 <span className='h-24 md:h-[300px]'>L</span>
                 <span className='h-24 md:h-[300px]'>U</span>
                 <span className='h-24 md:h-[300px]'>M</span>

@@ -39,11 +39,8 @@ function App() {
   requestAnimationFrame(raf)
 
   return (
-    <div>
-      <Background />
-      <div className=''>
-        <Navbar />
-      </div>
+    <div className='bg-gradient-to-r from-[#EFEFEF] to-[#9F9F9F]'>
+      <Navbar />
       <div className='container -mt-36'>
         <Intro />
         <Touch isMobile={isMobile} />
