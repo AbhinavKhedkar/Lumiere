@@ -70,8 +70,8 @@ export default function WebgiViewer() {
         viewer.scene.activeCamera.setCameraOptions({ controlsEnabled: false })
 
         if (isMobileOrTablet) {
-            position.set(-16.1217951480, 5.9776560555, 5.8864876500);
-            target.set(-1.4, -0.1428270817, -0.073489407);
+            position.set(-19.7036061183, 4.716806084, 6.3690349699);
+            target.set(-2.81, 0.1326460112, -1.10250425);
             // props.contentRef.current.className = "mobile-or-talet";
         }
 
