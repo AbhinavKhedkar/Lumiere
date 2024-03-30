@@ -32,16 +32,17 @@ export default function Touch({isMobile}) {
   }, [isMobile]);
 
   return (
-    <div className='flex flex-col justify-end items-center md:items-end w-screen h-screen p-12 -mt-28 md:mt-0' id='section-2'>
+    <div className='flex flex-col justify-end items-center md:items-end w-screen h-screen p-2 md:p-12 -mt-28 md:mt-0' id='section-2'>
       <div className='md:mt-24'>
-        <Heading content={"Intuitive Touchscreen Interface"} style={"font-sansation text-[#282828] text-2xl md:text-3xl lg:text-5xl"} scrolled={true} section={"section-2"} isMobile={isMobile} />
-        <p className=' text-[#444444] text-sm md:text-2xl lg:text-4xl font-extralight' ref={subHeader} id='subText-2'>
+        <Heading content={"Intuitive Touchscreen Interface"} style={"font-sansation text-[#282828] text-2xl md:text-3xl lg:text-5xl text-center sm:text-left"} scrolled={true} section={"section-2"} isMobile={isMobile} />
+        <p className=' text-[#444444] text-sm md:text-2xl lg:text-4xl font-extralight text-center sm:text-left' ref={subHeader} id='subText-2'>
           Easily navigate settings, adjust focus, and review<br />
           footage with a user-friendly touchscreen interface,<br />
           simplifying the video recording process for users of<br />
           all experience levels.
         </p>
       </div>
+      <div className="h-40 sm:h-0"></div>
     </div>
   )
 }

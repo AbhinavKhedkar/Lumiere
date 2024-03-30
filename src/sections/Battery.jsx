@@ -32,13 +32,14 @@ export default function Battery({isMobile}) {
   }, [isMobile]);
 
   return (
-    <div className='flex flex-col justify-end items-center md:items-start w-screen h-screen p-12 -mt-14 md:mt-0' id='section-3'>
-      <Heading content={"Sustained battery life"} style={"font-sansation text-[#282828] text-2xl md:text-3xl lg:text-5xl"} scrolled={true} section={"section-3"}/>
-      <p className='text-[#444444] text-sm md:text-2xl lg:text-4xl font-extralight' ref={subHeader} id='subText-3'>
+    <div className='flex flex-col justify-end items-center md:items-start w-screen h-screen p-2 md:p-12 -mt-20 md:mt-0' id='section-3'>
+      <Heading content={"Sustained battery life"} style={"font-sansation text-[#282828] text-2xl md:text-3xl lg:text-5xl text-center sm:text-left"} scrolled={true} section={"section-3"}/>
+      <p className='text-[#444444] text-sm md:text-2xl lg:text-4xl font-extralight text-center sm:text-left' ref={subHeader} id='subText-3'>
         Enjoy extended shooting sessions without<br />
         interruption, thanks to long-lasting battery life,<br />
         ensuring you never miss a moment of action
       </p>
+      <div className="h-40 sm:h-0"></div>
     </div>
   )
 }

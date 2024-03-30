@@ -31,15 +31,16 @@ export default function Design({ isMobile }) {
   }, [isMobile]);
 
   return (
-    <div className='flex flex-col justify-end items-center md:items-end w-screen h-screen p-12 -mt-14 md:mt-0' id='section-4'>
-      <div className=''>
-        <Heading content={"Silhouette design"} style={"font-sansation text-[#282828] text-2xl md:text-3xl lg:text-5xl"} scrolled={true} section={"section-4"} isMobile={isMobile} />
-        <p className=' text-[#444444] text-sm md:text-2xl lg:text-4xl font-extralight' ref={subHeader} id='subText-4'>
+    <div className='flex flex-col justify-end items-center md:items-end w-screen h-screen p-2 md:p-12 -mt-20 md:mt-0' id='section-4'>
+      <div>
+        <Heading content={"Silhouette design"} style={"font-sansation text-[#282828] text-2xl md:text-3xl lg:text-5xl text-center sm:text-left"} scrolled={true} section={"section-4"} isMobile={isMobile} />
+        <p className=' text-[#444444] text-sm md:text-2xl lg:text-4xl font-extralight text-center sm:text-left' ref={subHeader} id='subText-4'>
           The shape and contours of the camera body,<br />
           including any ergonomic grips or curves<br />
           designed for comfortable handling.
         </p>
       </div>
+      <div className="h-40 sm:h-0"></div>
     </div>
   )
 }

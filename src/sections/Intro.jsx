@@ -31,6 +31,7 @@ export default function Intro() {
         Where innovation meets elegance, capturing every moment with<br/>
         unparalleled clarity and precision.
       </p>
+      <div className="h-40 sm:h-0"></div>
     </div>
   )
 }
